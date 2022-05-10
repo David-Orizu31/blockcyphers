@@ -1,224 +1,279 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400&family=Nunito:wght@300&family=Poppins:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400&family=Inter&family=Nunito:wght@300&family=Poppins:wght@300;400&display=swap');
 
-html, body {
+html,body {
     max-width: 100%;
     overflow-x: hidden;
-    font-family: 'Barlow', sans-serif;
-}
-
-.crypto-header {
-    background-color: #f2a900;
-    padding: 10px 15px 10px 15px;
-}
-
-.head-info {
-    color: #024972;
-    font-size: 14px;
-}
-
-.head-info.link {
-    text-decoration: none;
-}
-
-.head-info.link:hover {
-    color: #024972;
-}
-
-.btn-login {
-    color: white;
-    background-color: #024972;
-    border: 1px solid #024972;
-    border-radius: 0px;
-}
-
-.btn-sign {
-    color:  #024972;
-    background-color: white;
-    border: 1px solid white;
-    border-radius: 0px;
-}
-
-.btn-login:hover {
-    color: #024972;
-    background-color: white;
-}
-
-.btn-sign:hover {
-    color: white;
-    background-color: #024972;
-}
-
-.navbar {
-    border-bottom: 2px solid #f2a900;
+    font-family: 'Inter', sans-serif;
 }
 
 #collapsibleNavId .navbar-nav .nav-item .nav-link {
-    text-transform: uppercase;
-    color: #024972;
-    margin-right: 20px;
+    color: white;
+    margin: 0px 10px 0px 10px;
 }
 
-#collapsibleNavId .navbar-nav .nav-item .nav-link:hover {
-    color: #f2a900;
+.toggle-nav {
+    font-size: 22px;
 }
 
-#collapsibleNavId .navbar-nav .nav-item .nav-link.active {
-    color: #f2a900;
-}
-
-.btn-toggle {
-    color: white !important;
-    background-color: #024972;
-}
-
-.btn-log2 {
-    color: white !important;
-     background-color: #f2a900;
-     border: 1px solid #f2a900;
-     border-radius: 0px;   
-}
-
-.btn-sign2 {
-    color: #024972 !important;
-     background-color: white;
-     border: 1px solid #f2a900;
-     border-radius: 0px;   
-}
-
-.crypto-banner {
-    background:linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../img/crypto-mining.jpg) no-repeat center;
+.home-banner {
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)) , url(../img/crypt-mine.jpg) no-repeat center;
     background-size: cover;
-    min-height: 500px;
+    min-height: 700px;
     padding-top: 150px;
 }
 
-.btn-start {
-    background-color: #f2a900;
-    color: #024972 !important;
-    border-radius: 0px;
-    border: 2px solid #f2a900;
-    margin-top: 15px;
+.nav-to-scroll {
+    padding-top: 20px;
+}
+
+.nav-to-scroll.scrolled {
+    background-color: #024972 !important;
+    transition: background-color 200ms linear;
+  }
+
+.btn-login {
+    color: #024972;
+    background-color: white;
+    margin: 0px 10px 0px 10px;
+    width: 100px;
+    border-radius: 20px;
+    border: 1px solid white;
+}
+
+.btn-login:hover {
+    color: white;
+    background-color: transparent;
+}
+
+.home-ban-head {
+    font-size: 50px;
+}
+
+.home-ban-text {
+    font-size: 18px;
+}
+
+.home-btn {
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 200px;
+    padding: 10px;
+}
+
+.estimate-earn {
+    background-color: rgb(200, 218, 243);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.esti-header {
+    padding: 10px 25px 10px 25px;
+    border-radius: 20px;
+    font-size: 18px;
+    color: white;
+    background-color: #0a6ba3;
+}
+
+.home-ban-label {
+    color: #024972;
+}
+
+.home-ban-btngr {
+    background-color: #024972;
+}
+
+.btn-calculate {
+    color: white;
+    background-color: #024972;
+    padding: 10px;
+    border: 1px solid #024972;
+    border-radius: 20px;
+}
+
+.btn-calculate:hover {
+    color: #024972;
+    background-color: white;
 }
 
 section {
-    padding-top: 60px;
+    padding-top: 50px;
 }
 
-.text-gold {
-    color: #f2a900;
+section h2 {
+    color: #024972;
+    margin-bottom: 30px;
+}
+
+.text-cover {
+    box-shadow: 3.801px 12.432px 38px 0 rgba(116, 124, 145, 0.26);
+    transition: all .3s ease-in;
 }
 
 .site-text {
-    color: #113a56;
     line-height: 1.8em;
-}
-
-.gm-why {
-    width: 200px;
+    font-size: 18px;
 }
 
 .plans-area {
-    padding: 20px;
-    background-color: #024972;
-    border: 2px solid #f2a900;
+    padding: 0px 30px 30px 30px;
+    background: linear-gradient(rgba(1, 41, 87, 0.5),rgba(1, 41, 87, 0.5)) , url(../img/blue-bg-2.jpg);
 }
 
-.plans-area .plan-top {
+.plans-area .plan-title {
     background-color: white;
-    color: #f2a900;
-    width: 150px;
+    color: #024972;
+    width: 170px;
+    padding: 10px;
     font-size: 18px;
-    padding: 5px;
 }
 
-.plan-amount p {
-    font-size: 25px;
-    margin-top: 20px;
-}
-
-.plans-area .plan-infos {
+.plans-info {
     background-color: white;
-    padding: 20px;
 }
 
-.plan-infos p {
-    border-bottom: 1px dashed #f2a900;
-    font-size: 17px;
+.plans-info p {
+    color: #024972;
+    border-bottom: 1px dashed #024972;
     padding-bottom: 10px;
 }
 
-.bold-plan {
-    font-size: 20px !important;
+.plans-info .last-child {
+    border-bottom: none !important;
+    padding-bottom: 0px !important;
 }
 
-.plan-button .btn-plan {
-    background-color: #f2a900;
-    border-radius: 0px;
+.plans-btn-area .btn-start-mine{
+   color: #024972;
+   background-color: white;
+   border: 1px solid white;
+   border-radius: 21px;
+   padding: 10px 20px 10px 20px;
 }
 
-.img-testi {
-    width: 100px;
-    border-radius: 50%;
-    height: 90px;
-}
-
-.start-mining {
-    background: linear-gradient(rgba(1, 49, 88, 0.5),rgba(3, 48, 85, 0.5)), url(../img/start-mine.jpg) no-repeat center;
-    min-height: 300px;
-    padding-top: 70px;
-    background-size: cover;
-}
-
-.btn-mine-today {
-    background-color: #f2a900;
+.plans-btn-area .btn-start-mine:hover {
     color: white;
-    border-radius: 0px;
-    border: 2px solid #f2a900;
+    background-color: transparent;
+}
+
+.why-mine-area {
+    box-shadow: 3.801px 12.432px 15px 0 rgba(116, 124, 145, 0.26);
+    transition: all .3s ease-in;
+}
+
+.why-mine-area .why-mine-icon {
+  color: #024972;
+  padding-top: 12px;
+}
+
+.why-mine-area .why-mine-text h5 {
+    color: #01253a;
     font-weight: bold;
 }
 
-.btn-mine-today:hover {
-    background-color: transparent;
-    color: #f2a900;
-    border-radius: 0px;
-    border: 2px solid #f2a900;
-    font-weight: bold;
+.start-mine-bg {
+    background: linear-gradient(rgba(1, 49, 104, 0.5),rgba(1, 49, 104, 0.5)) , url(../img/abs-blue-3.jpg) no-repeat center;
+    background-size: cover;
+    min-height: 350px;
+    border-radius: 15px;
+    padding-top: 80px;
+}
+
+.btn-start-today {
+    background-color: #024972;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    border: 1px solid #024972;
+    box-shadow: 3.801px 12.432px 15px 0 rgba(116, 124, 145, 0.26);
+    transition: all .3s ease-in;
+}
+
+.btn-start-today:hover {
+    color: #024972;
+    background-color: white;
 }
 
 .footer-area {
-    background-color: #212122;
-    padding: 30px 0px 20px 0px;
+    background: rgb(221, 231, 245);
+    padding-top: 30px;
 }
 
-.foot-text {
-    font-size: 18px;
+.footer-area .foot-head {
+    color: #024972;
 }
 
-.foot-links {
-    list-style-type: none;
+.footer-area .foot-text {
+    color: #576979;
+    font-size: 17px;
+}
+
+.footer-area .foot-links {
     padding-inline-start: 0px;
+    list-style-type: none;
 }
 
-.foot-links li a {
-    color: white;
+.footer-area .foot-links li a {
     text-decoration: none;
     line-height: 2em;
+}
+
+.footer-area .foot-links li a:hover {
+    color: #024972;
+}
+
+.footer-area .foot-links li a .foot-icons {
+    color: #024972;
+}
+
+.social-links a {
+    color: #024972;
+    font-size: 22px;
+    text-decoration: none;
+    padding: 0px 10px 0px 10px;
+}
+
+.other-banners {
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)) , url(../img/oth-ban-1.jpg) no-repeat center;
+    background-size: cover;
+    min-height: 350px;
+    padding-top: 150px;
+}
+
+.panel-control {
+    border-radius: 0px;
+}
+
+.btn-submit {
+    background-color: #024972;
+    color: white;
+    width: 200px;
+    border-radius: 21px;
+    border: 1px solid #024972;
+    padding: 10px;
+}
+
+.btn-submit:hover {
+    color: #024972;
+    background-color: transparent;
+}
+
+.privacy h5 {
+    color: #01253a;
+}
+
+.panel-area {
+    border: 1px solid #024972;
+    border-radius: 10px;
+}
+
+.panel-footer {
     font-size: 18px;
 }
 
-.foot-links li a:hover {
-    color: #f2a900;
-}
-
-.copyright {
-    font-size: 11px;
-}
-
-.foot-icons {
-    color: white;
+.panel-link {
     text-decoration: none;
-}
-
-.foot-icons:hover {
-    color: #f2a900;
+    color: #024972;
 }
