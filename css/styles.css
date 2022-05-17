@@ -4,6 +4,13 @@ html,body {
     max-width: 100%;
     overflow-x: hidden;
     font-family: 'Inter', sans-serif;
+    background: #05031a;
+    color: #828690;
+}
+
+.navbar {
+    background: #14112e;
+    box-shadow: 3.801px 7.432px 15px 0 rgba(116, 124, 145, 0.26);
 }
 
 #collapsibleNavId .navbar-nav .nav-item .nav-link {
@@ -16,9 +23,9 @@ html,body {
 }
 
 .home-banner {
-    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)) , url(../img/crypt-mine.jpg) no-repeat center;
+    /* background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)) , url(../img/crypt-mine.jpg) no-repeat center;
     background-size: cover;
-    min-height: 700px;
+    min-height: 700px; */
     padding-top: 150px;
 }
 
@@ -27,12 +34,12 @@ html,body {
 }
 
 .nav-to-scroll.scrolled {
-    background-color: #024972 !important;
+    background-color: #14112e !important;
     transition: background-color 200ms linear;
   }
 
 .btn-login {
-    color: #024972;
+    color: #435ebe;
     background-color: white;
     margin: 0px 10px 0px 10px;
     width: 100px;
@@ -64,7 +71,7 @@ html,body {
 }
 
 .estimate-earn {
-    background-color: rgb(200, 218, 243);
+    background-color: #14112e;
     padding: 30px;
     border-radius: 10px;
 }
@@ -74,27 +81,27 @@ html,body {
     border-radius: 20px;
     font-size: 18px;
     color: white;
-    background-color: #0a6ba3;
+    background-color: #435ebe;
 }
 
 .home-ban-label {
-    color: #024972;
+    color: #828690;
 }
 
 .home-ban-btngr {
-    background-color: #024972;
+    background-color: #435ebe;
 }
 
 .btn-calculate {
     color: white;
-    background-color: #024972;
+    background-color: #435ebe;
     padding: 10px;
-    border: 1px solid #024972;
+    border: 1px solid #435ebe;
     border-radius: 20px;
 }
 
 .btn-calculate:hover {
-    color: #024972;
+    color: #435ebe;
     background-color: white;
 }
 
@@ -103,7 +110,7 @@ section {
 }
 
 section h2 {
-    color: #024972;
+    color: white;
     margin-bottom: 30px;
 }
 
@@ -119,12 +126,12 @@ section h2 {
 
 .plans-area {
     padding: 0px 30px 30px 30px;
-    background: linear-gradient(rgba(1, 41, 87, 0.5),rgba(1, 41, 87, 0.5)) , url(../img/blue-bg-2.jpg);
+    background: #435ebe;
 }
 
 .plans-area .plan-title {
     background-color: white;
-    color: #024972;
+    color: #435ebe;
     width: 170px;
     padding: 10px;
     font-size: 18px;
@@ -135,8 +142,8 @@ section h2 {
 }
 
 .plans-info p {
-    color: #024972;
-    border-bottom: 1px dashed #024972;
+    color: #435ebe;
+    border-bottom: 1px dashed #435ebe;
     padding-bottom: 10px;
 }
 
@@ -146,7 +153,7 @@ section h2 {
 }
 
 .plans-btn-area .btn-start-mine{
-   color: #024972;
+   color: #435ebe;
    background-color: white;
    border: 1px solid white;
    border-radius: 21px;
@@ -164,17 +171,17 @@ section h2 {
 }
 
 .why-mine-area .why-mine-icon {
-  color: #024972;
+  color: #435ebe;
   padding-top: 12px;
 }
 
 .why-mine-area .why-mine-text h5 {
-    color: #01253a;
+    color: #435ebe;
     font-weight: bold;
 }
 
 .start-mine-bg {
-    background: linear-gradient(rgba(1, 49, 104, 0.5),rgba(1, 49, 104, 0.5)) , url(../img/abs-blue-3.jpg) no-repeat center;
+    background: #14112e;
     background-size: cover;
     min-height: 350px;
     border-radius: 15px;
@@ -182,27 +189,27 @@ section h2 {
 }
 
 .btn-start-today {
-    background-color: #024972;
+    background-color: #435ebe;
     color: white;
     padding: 10px 20px 10px 20px;
     border-radius: 20px;
-    border: 1px solid #024972;
+    border: 1px solid #435ebe;
     box-shadow: 3.801px 12.432px 15px 0 rgba(116, 124, 145, 0.26);
     transition: all .3s ease-in;
 }
 
 .btn-start-today:hover {
-    color: #024972;
+    color: #435ebe;
     background-color: white;
 }
 
 .footer-area {
-    background: rgb(221, 231, 245);
+    background: #14112e;
     padding-top: 30px;
 }
 
 .footer-area .foot-head {
-    color: #024972;
+    color: white;
 }
 
 .footer-area .foot-text {
@@ -221,15 +228,15 @@ section h2 {
 }
 
 .footer-area .foot-links li a:hover {
-    color: #024972;
+    color: #435ebe;
 }
 
 .footer-area .foot-links li a .foot-icons {
-    color: #024972;
+    color: #435ebe;
 }
 
 .social-links a {
-    color: #024972;
+    color: #435ebe;
     font-size: 22px;
     text-decoration: none;
     padding: 0px 10px 0px 10px;
@@ -247,25 +254,25 @@ section h2 {
 }
 
 .btn-submit {
-    background-color: #024972;
+    background-color: #435ebe;
     color: white;
     width: 200px;
     border-radius: 21px;
-    border: 1px solid #024972;
+    border: 1px solid #435ebe;
     padding: 10px;
 }
 
 .btn-submit:hover {
-    color: #024972;
+    color: #435ebe;
     background-color: transparent;
 }
 
 .privacy h5 {
-    color: #01253a;
+    color: #435ebe;
 }
 
 .panel-area {
-    border: 1px solid #024972;
+    border: 1px solid #435ebe;
     border-radius: 10px;
 }
 
@@ -275,5 +282,29 @@ section h2 {
 
 .panel-link {
     text-decoration: none;
-    color: #024972;
+    color: #435ebe;
+}
+
+.form-control {
+    background-color: transparent;
+    color: white;
+}
+
+.form-control:focus {
+    background-color: transparent;
+    color: white;
+}
+
+.form-select {
+    background-color: transparent;
+    color: white;
+}
+
+.form-select:focus {
+    background-color: transparent;
+    color: white;
+}
+
+.form-select option {
+    background-color: #05031a;
 }
