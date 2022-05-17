@@ -243,7 +243,7 @@ section h2 {
 }
 
 .other-banners {
-    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)) , url(../img/oth-ban-1.jpg) no-repeat center;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) , url(../img/btc-banner.jpg) no-repeat center;
     background-size: cover;
     min-height: 350px;
     padding-top: 150px;
@@ -272,7 +272,7 @@ section h2 {
 }
 
 .panel-area {
-    border: 1px solid #435ebe;
+    background: #14112e;
     border-radius: 10px;
 }
 
@@ -307,4 +307,18 @@ section h2 {
 
 .form-select option {
     background-color: #05031a;
+}
+
+.accordion-button {
+    background-color: #14112e;
+    color: white;
+    border-bottom: 1px solid #576979;
+} 
+
+.accordion-item {
+    background-color: #05031a
+} 
+
+.tab-link {
+    color: #435ebe;
 }
